@@ -17,6 +17,11 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure header is on top of other content */
 }
 
 .header-content {
@@ -53,7 +58,7 @@ nav ul li a {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 80px; /* Adjust top margin to account for fixed header */
 }
 
 .about-content {
@@ -96,4 +101,8 @@ footer {
     text-align: center;
     padding: 1rem 0;
     margin-top: auto; /* Push footer to the bottom */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
