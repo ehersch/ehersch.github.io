@@ -118,39 +118,3 @@ section {
 #interests {
     background: #f2f2f2; /* Light gray background for Interests section */
 }
-
-/* Footer styles */
-footer {
-    background: #34495e; /* Darker background color for footer */
-    color: #ccc; /* Lighter text color */
-    text-align: center;
-    padding: 1rem 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer-content {
-    max-width: 960px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-content p {
-    margin: 0;
-}
-
-.footer-content a {
-    color: #3498db; /* Light blue color */
-    text-decoration: none;
-}
-
-.footer-content a:hover {
-    text-decoration: underline;
-}
-
-.footer-content a .fas {
-    color: #3498db; /* Match the link color */
-}
