@@ -60,6 +60,16 @@ nav ul li a {
     text-decoration: none;
 }
 
+.social-icons {
+    display: flex;
+    gap: 20px; /* Increase gap if needed */
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 2rem; /* Increase this value to make icons bigger */
+}
+
 .about-section {
     padding: 2rem;
     display: flex;
